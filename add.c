@@ -3,8 +3,10 @@
 #include <stdio.h>
 
 int main(){
-    for(int i = 0; i < 10; i++){
-        printf("n=%d\n",i);
-    }
+    int n = 0;
+    while(n<10){
+        printf("n=%d\n",n);
+        n++;
+    };
     return 0;
 }
